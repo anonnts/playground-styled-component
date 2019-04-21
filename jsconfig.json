@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./",
+        "paths": {
+            "Constants/endpoints": [
+                "src/constants/endpoints"
+            ],
+            "Components/widgets/part": [
+                "src/components/widgets/part"
+            ],
+            "Libs/validations": [
+                "src/libs/validations"
+            ],
+            "Libs/widgets": [
+                "src/libs/widgets"
+            ],
+            "Libs/*": [
+                "src/libs"
+            ],
+            "Components/createCampaign/": [
+                "src/components/createCampaign/"
+            ]
+        },
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

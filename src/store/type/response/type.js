@@ -1,0 +1,2 @@
+export const SWITCH_THEME = 'SWITCH_THEME'
+export const TURNON_INFO = 'TURNON_INFO'
